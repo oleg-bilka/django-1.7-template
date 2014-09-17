@@ -61,6 +61,11 @@ To install requirements on your development system, use PIP to reference the dev
 
     (django17)$ pip install -r requirements/development.txt
 
+Optional Step: If you have Bower installed, you can update the asset dependencies now.
+    
+    (django17)$ bower install
+
+
 ### [Run Server](id:anchor-run-server)
 
 First, initialize the SQLITE database.  *Note: you may be asked to define the superuser/admin*.
